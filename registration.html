@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="registration_form.css">
+  <style>
+           </style>
+</head>
+<body>
+
+<h2>Registration Page</h2>
+<form action="loginpage.html" method ="GET">
+
+<label for="fname">First name:</label>
+<input type="text" id="fname" placeholder="Enter First name"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" placeholder="Enter Last name"><br><br>
+
+<p>Gender:</p>
+<input type="radio" id="female" name="female" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="male" name="male" value="male">
+<label for="male">Male</label><br>
+
+<p>Branch</p>
+<input type="checkbox" id="CSE" name="CSE" value="CSE">
+<label for="CSE"> CSE</label><br>
+<input type="checkbox" id="CSIT" name="CSIT" value="CSIT">
+<label for="CSIT"> CSIT</label><br>
+
+<p>Languages Known:</p>
+<input type="checkbox" id="telugu" name="language" value="Telugu">
+<label for="telugu">Telugu</label><br>
+<input type="checkbox" id="hindi" name="language" value="Hindi">
+<label for="hindi">Hindi</label><br>
+<input type="checkbox" id="english" name="language" value="English">
+<label for="english">English</label><br><br>
+
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" placeholder="Enter Phone Number"><br><br>
+
+<label for="birthday">Birthday: </label>
+<input type="date" id="birthday" name="birthday"><br><br>
+
+<label for="vol">Volume (between 0 and 50):</label>
+<input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
